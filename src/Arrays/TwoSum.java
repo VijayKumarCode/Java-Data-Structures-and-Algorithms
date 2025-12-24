@@ -1,8 +1,8 @@
 /**
  * Problem: Two Sum  (LeetCode #001)
  * Pattern: Two Pointers (Forwards)
- * * Logic: Since the first array has extra space at the end, we start 
- * comparing elements from the back to avoid overwriting values.
+ * * Logic: We have to take two pointer approach and make sure none of them call 
+ * itself as it violates the question theme
  * * Time Complexity: $O(n^2)$ - We visit each element in both arrays once.
  * Space Complexity: $O(1)$ - We modify the input array in-place.
  */
