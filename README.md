@@ -17,6 +17,7 @@ Optimized Java solutions for 150+ DSA patterns with documented Time/Space comple
 | 4 | [Remove Element](/src/Arrays/RemoveElement.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
 | 5 | [Remove Duplicates](/src/Arrays/RemoveDuplicates.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
 | 6 | [Majority Element](/src/Arrays/MajorityElement.java) | Two Pointers | $O(n log n)$ Time, $O(n)$ Space | ✅ |
+| 7 | [Length of Last Word](./src/Strings/LengthOfLastWord.java) | One Pointer | $O(n)$ Time / $O(n)$ Space | ✅ |
 
 
 ## 🚀 How to Use
