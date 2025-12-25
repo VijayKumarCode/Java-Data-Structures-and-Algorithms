@@ -12,8 +12,9 @@ Optimized Java solutions for 150+ DSA patterns with documented Time/Space comple
 | # | Problem | Topic | Complexity | Status |
 |---|---------|-------|------------|--------|
 | 1 | [Two Sum](./Arrays/TwoSum.java) | Hash Table | $O(n^2)$ Time, $O(1)$ Space | ✅ |
-| 2 | [Valid Palindrome](./Strings/Palindrome.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
-| 3 | [Merge Sorted Array](./Arrays/Merge.java) | Two Pointers | $O(m+n)$ Time, $O(1)$ Space | ✅ |
+| 2 | [Valid Palindrome](./Strings/ValidPalindrome.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
+| 3 | [Merge Sorted Array](./Arrays/MergeSort.java) | Two Pointers | $O(m+n)$ Time, $O(1)$ Space | ✅ |
+
 
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
