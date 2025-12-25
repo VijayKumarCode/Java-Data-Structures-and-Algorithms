@@ -16,6 +16,7 @@ Optimized Java solutions for 150+ DSA patterns with documented Time/Space comple
 | 3 | [Merge Sorted Array](/src/Arrays/MergeSort.java) | Two Pointers | $O(m+n)$ Time, $O(1)$ Space | ✅ |
 | 4 | [Remove Element](/src/Arrays/RemoveElement.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
 | 5 | [Remove Duplicates](/src/Arrays/RemoveDuplicates.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
+| 6 | [Majority Element](/src/Arrays/MajorityElement.java) | Two Pointers | $O(n log n)$ Time, $O(n)$ Space | ✅ |
 
 
 ## 🚀 How to Use
