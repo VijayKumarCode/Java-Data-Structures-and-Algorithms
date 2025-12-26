@@ -1,7 +1,7 @@
 /**
  * 🔄 ALGORITHM: Floyd's Cycle-Finding (Tortoise and Hare)
  * ------------------------------------------------------
- * PROBLEM: Given the head of a linked list, determine if the list has a cycle.
+ * PROBLEM: Given the head of a linked list, determine if the list has a cycle(Leetcode 141).
  * * LOGIC:
  * - Use two pointers moving at different speeds (Slow: 1 step, Fast: 2 steps).
  * - If there is no cycle, the fast pointer will eventually reach the end (null).
