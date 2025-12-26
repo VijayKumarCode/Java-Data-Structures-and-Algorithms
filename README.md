@@ -7,6 +7,11 @@ Optimized Java solutions for 150+ DSA patterns with documented Time/Space comple
 - **Documentation:** Every solution includes a Big-O analysis header.
 - **Style:** Following Google Java Style Guide for clean, readable code.
 
+## 🏗️ Architecture: Linked Lists
+To demonstrate **Separation of Concerns**, the Linked List section is implemented using a modular approach:
+* **Node.java**: The data model and reference structure.
+* **LinkListSingly.java**: The core algorithm implementation (Logic).
+* **LL.java**: The driver class for execution and test cases.
 ## 📊 Progress Tracker
 
 | # | Problem | Topic | Complexity | Status |
@@ -18,6 +23,8 @@ Optimized Java solutions for 150+ DSA patterns with documented Time/Space comple
 | 5 | [Remove Duplicates](/src/Arrays/RemoveDuplicates.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
 | 6 | [Majority Element](/src/Arrays/MajorityElement.java) | Two Pointers | $O(n log n)$ Time, $O(n)$ Space | ✅ |
 | 7 | [Length of Last Word](./src/Strings/LengthOfLastWord.java) | One Pointer | $O(n)$ Time / $O(n)$ Space | ✅ |
+| 8 | **Singly Linked List** | [Node](./src/LinkedLists/Node.java) • [Logic](./src/LinkedLists/LinkListSingly.java) • [Driver](./src/LinkedLists/LL.java) | $O(n)$ Search, $O(1)$ Head Ops | ✅ |
+
 
 
 ## 🚀 How to Use
