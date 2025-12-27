@@ -25,8 +25,8 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 7 | [Length of Last Word](./src/Strings/LengthOfLastWord.java) | One Pointer | $O(n)$ Time , $O(n)$ Space | ✅ |
 | 8 | **Singly Linked List** | [Node](./src/LinkLists/Node.java) • [Logic](./src/LinkLists/LinkListSingly.java) • [Driver](./src/LinkLists/LL.java) | $O(n)$ Search, $O(1)$ Head Ops | ✅ |
 | 9 | [Linked List Cycle](./src/LinkLists/LinkListCycle.java) | slow and fast Pointer | $O(n)$ Time , $O(1)$ Space | ✅ |
-|10	| [Reverse Words in String](./src/Strings/ReverseWordsInString.java)	| Two Pointers String |	$O(n)$ Time , $O(n)$ Space|	✅ |
-
+| 10 | [Reverse Words in String](./src/Strings/ReverseWordsInString.java)	| Two Pointers String |	$O(n)$ Time , $O(n)$ Space|	✅ |
+| 11 | [Reverse Linked List II](./src/LinkedLists/ReverseLinkList2.java) | Partial Reversal | $O(n)$ Time / $O(1)$ Space | ✅ |
 
 
 ## 🚀 How to Use
