@@ -19,85 +19,89 @@ class LinkListSingly {
     public LinkListSingly() {
         this.size = 0;
     }
-    public void insertAtBeginning(int data){
+    public void insertAtBeginning(int data) {
          Node node = new Node(data);
-         node.next = head;
+         node.setNext(head);
          head = node;
-
-         if(tail == null){
+         if(tail == null) {
              tail = head;
-             return;
          }
          size += 1;
     }
-    public void insertAtEnd(int data){
-        if(tail == null){
+    public void insertAtEnd(int data) {
+        if(tail == null) {
             insertAtBeginning(data);
             return;
         }
         Node node = new Node(data);
-        tail.next = node;
+        tail.setNext(node);
         tail = node;
         size += 1;
     }
-    public void insertAtParticularPos(int data, int index){
-        if (index == 0){
+    public void insertAtParticularPos(int data, int index) {
+        if (index == 0) {
             insertAtBeginning(data);
             return;
         }
-        if (index == size){
+        if (index == size) {
             insertAtEnd(data);
             return;
         }
         Node temp = head;
         for (int i = 1; i < index; i++) {
-            temp = temp.next;
+            temp = temp.getNext();
         }
-        Node node = new Node(data,temp.next);
-        temp.next = node;
+        Node newNode = new Node(data);
+        newNode.setNext(temp.getNext());
+        temp.setNext(newNode);
         size += 1;
     }
-    public void deleteFirst(){
-        if(head != null){
-            head = head.next;
+    public void deleteFirst() {
+        if(head != null) {
+            head = head.getNext();
+            if (head == null) {
+                tail = null;
+            }
+            size -= 1;
         }
     }
-    public void deleteEnd(){
+    public void deleteEnd() {
         if(head == null){
             return;
         }
-        if(head.next==null){
+        if(head.getNext()==null) {
             deleteFirst();
             return;
         }
         Node temp = head;
-       while (temp.next.next != null ){
-           temp = temp.next;
+       while (temp.getNext().getNext() != null) {
+           temp = temp.getNext();
        }
-       int val = tail.data;
        tail = temp;
-       tail.next = null;
+       tail.setNext(null);
+       size -= 1;
     }
-
-    public  void deleteElementAtPos(int index){
+    public  void deleteElementAtPos(int index) {
         if(head == null || index <= 0){
             return;
         }
-        if(index == 1){
+        if(index == 1) {
             deleteFirst();
+            return;
         }
         Node temp = head;
         int i = 1;
-        while (i++ < index-1){
-            temp = temp.next;
+        while (i++ < index-1) {
+            temp = temp.getNext();
         }
-        temp.next = temp.next.next;
+        temp.setNext(temp.getNext().getNext());
+        size -= 1;
     }
-    public void display(){
+    public void display() {
         Node temp = head;
-        while (temp != null){
-            System.out.print(temp.data+"->");
-            temp = temp.next;
+        while (temp != null) {
+            System.out.print(temp.getData()+"->");
+            temp = temp.getNext();
         }
         System.out.println("End");
     }
