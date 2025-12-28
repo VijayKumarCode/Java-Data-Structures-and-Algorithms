@@ -1,5 +1,5 @@
 /**
- * 🔄 ALGORITHM: Floyd's Cycle-Finding (Tortoise and Hare)
+ * LeetCode 141: Floyd's Cycle-Finding (Tortoise and Hare)
  * ------------------------------------------------------
  * PROBLEM: Given the head of a linked list, determine if the list has a cycle(Leetcode 141).
  * * LOGIC:
