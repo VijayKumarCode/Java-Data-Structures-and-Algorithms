@@ -16,17 +16,18 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 
 | # | Problem | Topic | Complexity | Status |
 |---|---------|-------|------------|--------|
-| 1 | [Two Sum](/src/Arrays/TwoSum.java) | Hash Table | $O(n^2)$ Time, $O(1)$ Space | ✅ |
-| 2 | [Valid Palindrome](/src/Strings/ValidPalindrome.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
-| 3 | [Merge Sorted Array](/src/Arrays/MergeSort.java) | Two Pointers | $O(m+n)$ Time, $O(1)$ Space | ✅ |
-| 4 | [Remove Element](/src/Arrays/RemoveElement.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
-| 5 | [Remove Duplicates](/src/Arrays/RemoveDuplicates.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
-| 6 | [Majority Element](/src/Arrays/MajorityElement.java) | Two Pointers | $O(n log n)$ Time, $O(n)$ Space | ✅ |
+| 1 | [Two Sum](./src/Arrays/TwoSum.java) | Hash Table | $O(n^2)$ Time, $O(1)$ Space | ✅ |
+| 2 | [Valid Palindrome](./src/Strings/ValidPalindrome.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
+| 3 | [Merge Sorted Array](./src/Arrays/MergeSort.java) | Two Pointers | $O(m+n)$ Time, $O(1)$ Space | ✅ |
+| 4 | [Remove Element](./src/Arrays/RemoveElement.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
+| 5 | [Remove Duplicates](./src/Arrays/RemoveDuplicates.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
+| 6 | [Majority Element](./src/Arrays/MajorityElement.java) | Two Pointers | $O(n log n)$ Time, $O(n)$ Space | ✅ |
 | 7 | [Length of Last Word](./src/Strings/LengthOfLastWord.java) | One Pointer | $O(n)$ Time , $O(n)$ Space | ✅ |
 | 8 | **Singly Linked List** | [Node](./src/LinkLists/Node.java) • [Logic](./src/LinkLists/LinkListSingly.java) • [Driver](./src/LinkLists/LL.java) | $O(n)$ Search, $O(1)$ Head Ops | ✅ |
 | 9 | [Linked List Cycle](./src/LinkLists/LinkListCycle.java) | slow and fast Pointer | $O(n)$ Time , $O(1)$ Space | ✅ |
 | 10 | [Reverse Words in String](./src/Strings/ReverseWordsInString.java)	| Two Pointers String |	$O(n)$ Time , $O(n)$ Space|	✅ |
-| 11 | [Reverse Linked List II](./src/LinkedLists/ReverseLinkList2.java) | Partial Reversal | $O(n)$ Time / $O(1)$ Space | ✅ |
+| 11 | [Reverse Linked List II](./src/LinkedLists/ReverseLinkList2.java) | Partial Reversal | $O(n)$ Time , $O(1)$ Space | ✅ |
+| 12 | [Merge Two Sorted Lists ](./src/LinkedLists/MergeTwoSortedLists.java) | Linked List | $O(n+m)$ Time , $O(1)$ Space|	✅ |
 
 
 ## 🚀 How to Use
