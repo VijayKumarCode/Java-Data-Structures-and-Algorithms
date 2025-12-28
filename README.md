@@ -29,6 +29,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 11 | [Reverse Linked List II](./src/LinkLists/ReverseLinkList2.java) | Partial Reversal | $O(n)$ Time , $O(1)$ Space | ✅ |
 | 12 | [Merge Two Sorted Lists ](./src/LinkLists/MergeTwoSortedLists.java) | Linked List | $O(n+m)$ Time , $O(1)$ Space|	✅ |
 | 13 | [Linked List Cycle II ](./src/LinkLists/LinkListCycle2.java) | slow and fast pointer | $O(n)$ Time , $O(1)$ Space|	✅ |
+| 14 | [First Occurence in String](./src/Strings/FirstOccurrence.java) | Sliding window | $O(n \cdot m)$ Time , $O(n)$ Space | ✅ |
 
 
 ## 🚀 How to Use
