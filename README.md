@@ -31,6 +31,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 13 | [Linked List Cycle II ](./src/LinkLists/LinkListCycle2.java) | slow and fast pointer | $O(n)$ Time , $O(1)$ Space|	✅ |
 | 14 | [First Occurence in String](./src/Strings/FirstOccurrence.java) | Sliding window | $O(n \cdot m)$ Time , $O(n)$ Space | ✅ |
 | 15 | [Longest common prefix in String](./src/Strings/LongestCommonPrefix.java) | Strings scanning | $O(n)$ Time , $O(1)$ Space | ✅ |
+| 16 | [Two Sum II](./src/Arrays/TwoSumII.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
 
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
