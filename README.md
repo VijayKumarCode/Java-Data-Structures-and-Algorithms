@@ -33,7 +33,8 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 15 | [Longest common prefix in String](./src/Strings/LongestCommonPrefix.java) | Strings scanning | $O(n)$ Time , $O(1)$ Space | ✅ |
 | 16 | [Two Sum II](./src/Arrays/TwoSumII.java) | Two Pointers | $O(n)$ Time, $O(1)$ Space | ✅ |
 | 17 | [Three Sum](./src/Arrays/ThreeSum.java) | Two Pointers/sorting | $O(n^2)$ Time, $O(1)$ Space | ✅ |
-| 18 | [Palindrome Number](./src/Maths/PalindromeNumber.java) | Math / Reversal | $O(\log n)$ Time | ✅ |
+| 18 | [Palindrome Number](./src/Maths/PalindromeNumber.java) | Math / Reversal | $O(\log n)$ Time, $O(1)$ Space | ✅ |
+
 
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
