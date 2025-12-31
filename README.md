@@ -35,6 +35,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 17 | [Three Sum](./src/Arrays/ThreeSum.java) | Two Pointers/sorting | $O(n^2)$ Time, $O(1)$ Space | ✅ |
 | 18 | [Palindrome Number](./src/Maths/PalindromeNumber.java) | Math / Reversal | $O(\log n)$ Time, $O(1)$ Space | ✅ |
 | 19 | [Binary search](./src/BinarySearch/BinarySearch.java) | Divide and conquer | $O(log n)$ Time, $O(1)$ Space | ✅ |
+| 20 | [PlusOne Number](./src/Maths/PLusOne.java) | Math / Arrays | $O(n)$ Time, $O(n)$ Space | ✅ |
 
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
