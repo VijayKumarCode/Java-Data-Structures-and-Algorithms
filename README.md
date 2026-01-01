@@ -40,5 +40,6 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 22 | [SearchIn2DMatrix](./src/BinarySearch/SearchIn2DMatrix.java) | Binary Search | $O(log (m*n))$ Time, $O(1)$ Space | ✅ |
 | 23 | [Roman To Int](./src/Arrays/RomanToInt.java) | Arrays /Strings | $O(n)$ Time, $O(1)$ Space | ✅ |
 | 24 | [Int To Roman](./src/Arrays/IntToRoman.java) | Arrays /Strings | $O(1)$ Time, $O(1)$ Space | ✅ |
+| 25 | [Square Root](./src/Maths/SquareRoot.java) | Math | $O(\sqrt{n})$ Time, $O(1)$ Space | ✅ |
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
