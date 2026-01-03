@@ -1,3 +1,4 @@
+package String;
 /**
  * Problem: ValidPalindrome Strings (LeetCode #125)
  * Pattern: Two Pointers (forwards)
@@ -7,8 +8,6 @@
  * * Time Complexity: $O(n)$ - We visit each element in both arrays once.
  * Space Complexity: $O(1)$ - We modify the input array in-place.
  */
-
-
 class ValidPalindrome {
     public boolean isPalindrome(String s) {
         String name = "Null";

@@ -1,3 +1,5 @@
+package String;
+
 /**
  * 🔤 LEETCODE 14: Longest Common Prefix
  * -------------------------------------

@@ -1,3 +1,4 @@
+package String;
 /**
  * 📝 LEETCODE 151: Reverse Words in a String
  * -----------------------------------------
@@ -6,7 +7,6 @@
  * - The input string may contain leading or trailing spaces.
  * - Words are separated by at least one space.
  * - The returned string should only have a single space separating the words.
- *
  * ALGORITHM
  *          STRATEGY 1
  * 1. Trim leading/trailing whitespace.
@@ -23,7 +23,6 @@
  * - Time Complexity: O(n) -> We traverse the string and the resulting word list.
  * - Space Complexity: O(n) -> Storing the split words in an array/list.
  */
-
 class ReverseWordsInString {
     public String reverseWords(String s) {
         String[] revSentence = s.split("\\s+");
@@ -55,5 +54,4 @@ class ReverseWordsInString {
         }
         return sb.toString();
     }
-    //return sb.toString();
 }
