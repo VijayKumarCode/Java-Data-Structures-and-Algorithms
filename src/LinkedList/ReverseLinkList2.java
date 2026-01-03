@@ -1,3 +1,4 @@
+package LinkedList;
 /**
  * 🔄 ALGORITHM: Reverse Linked List II (Partial Reversal)
  * ------------------------------------------------------
@@ -9,7 +10,6 @@
  * 3. In-Place Reversal: Reverses exactly (right - left + 1) nodes.
  * 4. Re-linking: Connects the 'prev' node to the new sub-list head and the original 
  * sub-list tail to the remaining list.
- *
  * COMPLEXITY ANALYSIS:
  * - Time Complexity: O(n) -> We traverse the list at most once.
  * - Space Complexity: O(1) -> Performed in-place without extra data structures.
@@ -46,4 +46,3 @@ class ReverseLinkList2{
         return prev;
     }
 }
-

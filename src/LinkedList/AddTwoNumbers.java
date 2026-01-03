@@ -1,3 +1,4 @@
+package LinkedList;
 /**
  * 🔗 LEETCODE 2: Add Two Numbers
  * ------------------------------
@@ -10,12 +11,11 @@
  * 3. Summation: Sum the values of current nodes and the carry.
  * 4. Carry Logic: Update carry (total / 10) and current digit (total % 10).
  * 5. Node Creation: Link new nodes with the calculated digit.
- *
  * COMPLEXITY ANALYSIS:
  * - Time Complexity: O(max(m, n)) -> Where m and n are lengths of l1 and l2.
  * - Space Complexity: O(max(m, n)) -> The length of the new list is at most max(m, n) + 1.
  */
-class AddTwonumbers {
+class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
       ListNode dummy = new ListNode(-1);
       ListNode result = dummy;

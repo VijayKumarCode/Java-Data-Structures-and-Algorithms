@@ -1,3 +1,4 @@
+package LinkedList;
 /**
  * LEETCODE 141: Floyd's Cycle-Finding (Tortoise and Hare)
  * ------------------------------------------------------
@@ -7,17 +8,13 @@
  * - If there is no cycle, the fast pointer will eventually reach the end (null).
  * - If there is a cycle, the fast pointer will eventually "lap" the slow pointer,
  * and they will meet at the same node.
- *
  * COMPLEXITY ANALYSIS:
  * - Time Complexity: O(n) -> In the worst case, we traverse each node once.
  * - Space Complexity: O(1) -> Only two pointers are used, regardless of list size.
- *
  * ADVANTAGE: 
  * This approach is superior to using a HashSet, which would require O(n) extra space.
- */
-
  * Definition for singly-linked list.
- * class ListNode {
+ * static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) {

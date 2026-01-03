@@ -1,5 +1,5 @@
-/**
- *  LEETCODE 21: Merge Two Sorted Lists
+package LinkedList;
+/*  LEETCODE 21: Merge Two Sorted Lists
  * -------------------------------------
  * PROBLEM: Merge two sorted linked lists into one sorted list by splicing nodes.
  * * ALGORITHM STRATEGY:
@@ -7,12 +7,9 @@
  * 2. Comparison: Compare the 'val' of head nodes from both lists.
  * 3. Splicing: Attach the smaller node to the merged list and move that list's pointer forward.
  * 4. Cleanup: If one list finishes early, attach the remainder of the other list.
- *
  * COMPLEXITY ANALYSIS:
  * - Time Complexity: O(n + m) -> We visit every node in both lists once.
  * - Space Complexity: O(1) -> We are rearranging existing nodes, not creating new ones.
- */
-/**
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;

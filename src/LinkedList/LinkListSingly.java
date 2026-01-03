@@ -1,3 +1,4 @@
+package LinkedList;
 /**
  * CLASS: LinkListSingly
  * --------------------
@@ -9,7 +10,6 @@
  * - Delete (Head): O(1)
  * - Delete (Tail/Index): O(n)
  * - Search: O(n)
- *
  * SPACE COMPLEXITY: O(n) for the total list.
  */
 class LinkListSingly {

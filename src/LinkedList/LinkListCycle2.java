@@ -1,4 +1,4 @@
-/**
+package LinkedList; /**
  *  LEETCODE 142: Linked List Cycle II
  * ------------------------------------
  * PROBLEM: Given the head of a linked list, return the node where the cycle begins. 
@@ -8,17 +8,13 @@
  * 2. Intersection: If they meet, a cycle exists.
  * 3. Finding Entrance: Reset the slow pointer to 'head' and move both pointers 
  * at a speed of 1 step. The node where they meet again is the start of the cycle.
- *
  * MATHEMATICAL PROOF:
  * Let 'a' be the distance from head to cycle start, and 'b' be the distance 
  * from start to meeting point. The meeting occurs such that the entrance 
  * is equidistant from the head and the current meeting point.
- *
  * COMPLEXITY ANALYSIS:
  * - Time Complexity: O(n) -> Linear traversal.
  * - Space Complexity: O(1) -> No extra memory used, only two pointers.
- */
-/**
  * Definition for singly-linked list.
  * class ListNode {
  *     int val;
