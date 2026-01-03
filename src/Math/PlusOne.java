@@ -1,3 +1,4 @@
+package Math;
 /**
  * 🔢 LEETCODE 66: Plus One
  * ------------------------
@@ -9,7 +10,6 @@
  * 3. Carry: If digit is 9, set to 0 and move to the next left digit.
  * 4. Edge Case: If all digits were 9, create a new array of size n+1 
  * and set the first element to 1.
- *
  * COMPLEXITY ANALYSIS:
  * - Time Complexity: O(n) -> Single pass through the digits.
  * - Space Complexity: O(n) -> Only in the worst case (all 9s) where we create a new array.
@@ -28,6 +28,5 @@ class PlusOne {
         int[] newNumber = new int[digits.length+1];
         newNumber[0] = 1;
         return newNumber; 
-    }  
-    
+    }
 }

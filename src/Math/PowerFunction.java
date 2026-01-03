@@ -1,3 +1,5 @@
+package Math;
+
 /**
  * LeetCode #50: Pow(x, n)
  * * Problem: Implement pow(x, n), which calculates x raised to the power n (i.e., x^n).

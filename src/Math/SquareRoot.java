@@ -1,3 +1,4 @@
+package Math;
 /**
  * Problem: 69. Sqrt(x)
  * Method: Linear Search 
