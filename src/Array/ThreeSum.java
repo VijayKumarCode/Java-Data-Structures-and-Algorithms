@@ -1,3 +1,7 @@
+package Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 /**
  * 🔢 LEETCODE 15: 3Sum (Unique Triplets)
  * -------------------------------------

@@ -1,3 +1,4 @@
+package Array;
 /**
  * Problem 13: Roman to Integer
  * Difficulty: Easy
@@ -11,7 +12,6 @@ class RomanToInt {
    public int romanToInt(String s) {
        int output = 0;
        int prevValue = 0;
-
     // Moving backwards through the string makes the subtraction logic easier
       for (int i = s.length() - 1; i >= 0; i--) {
           int currentValue = 0;
@@ -24,7 +24,6 @@ class RomanToInt {
                case 'D': currentValue = 500; break;
                case 'M': currentValue = 1000; break;
             }
-
         // If the current value is smaller than the value to its right, subtract it
              if (currentValue < prevValue) {
               output -= currentValue;
@@ -32,12 +31,8 @@ class RomanToInt {
             else {
               output += currentValue;
             }
-        
           prevValue = currentValue;
         }
-    
        return output;
     }
 }
-
-
