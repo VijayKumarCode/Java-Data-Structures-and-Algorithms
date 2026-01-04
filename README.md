@@ -43,7 +43,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 25 | [Square Root](./src/Maths/SquareRoot.java)                                | Math                                                                                                                 | $O(\sqrt{n})$ Time, $O(1)$ Space             | ✅ |
 | 26 | [Power Function](./src/Maths/PowerFunction.java)                          | Math                                                                                                                 | $O(log(n)$ Time, $O(1)$ Space                | ✅ |
 | 27 | [Min Sub Array](./src/SlidingWindow/MinSubArray.java)                     | Math                                                                                                                 | $O(log(n)$ Time, $O(1)$ Space                | ✅ |
-| 28 | [Lonest Sub String](./src/SlidingWindow/LongestSubString.java)            | Math/HashSet                                                                                                         | $O((n)$ Time, $O(min(m,n)$ Space             | ✅ |
+| 28 | [Longest Sub String](./src/SlidingWindow/LongestSubString.java)            | Math/HashSet                                                                                                         | $O((n)$ Time, $O(min(m,n)$ Space             | ✅ |
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
 */
