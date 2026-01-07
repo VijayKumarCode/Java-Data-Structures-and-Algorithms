@@ -51,6 +51,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 33 | [Can construct ](./src/HashMap/CanConstruct.java)                            | HashMap                                                                                                              | $O((MXN)$ Time, $O(k)$ Space   where k is 1 to 26                                              | ✅ |
 | 33 | [Isomorphic ](./src/HashMap/Isomorphic.java)                                 | HashMap                                                                                                              | $O((N)$ Time, $O(k)$ Space                                                                     | ✅ |
 | 34 | [Word Pattern ](./src/HashMap/WordPattern.java)                              | HashMap                                                                                                              | $O((N)$ Time, $O(N)$ Space      where n is same as  take n time and space will also take same. | ✅ |
+| 35 | [Happy Number](./src/LinkedList/HappyNumber.java)                            | Linked List/Math                                                                                                     | $O(log n)$ Time , $O(1)$ Space                                                                 | ✅ 
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
 */
