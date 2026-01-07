@@ -48,8 +48,8 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 30 | [Max Area ](./src/Array/ReturnContainerMostWaterAtParticularArea.java)       | Array/Two Pointer Approach                                                                                           | $O((n)$ Time, $O(1)$ Space   | ✅ |
 | 31 | [Spiral Matrix ](./src/Array/SpiralClockWise.java)                           | Array/Matrix                                                                                                         | $O((MXN)$ Time, $O(1)$ Space | ✅ |
 | 32 | [Is Valid Sudoku ](./src/Array/IsValidSudoku.java)                           | Array/Matrix                                                                                                         | $O((N^2)$ Time, $O(1)$ Space | ✅ |
-| 33 | [Can construct ](./src/Hashmap/CanConstruct.java)                            | HashMap                                                                                                              | $O((MXN)$ Time, $O(k)$ Space   where k is 1 to 26 | ✅ |
-| 33 | [Isomorphic ](./src/Hashmap/Isomorphic.java)                                 | HashMap                                                                                                              | $O((N)$ Time, $O(k)$ Space   | ✅ |
+| 33 | [Can construct ](./src/HashMap/CanConstruct.java)                            | HashMap                                                                                                              | $O((MXN)$ Time, $O(k)$ Space   where k is 1 to 26 | ✅ |
+| 33 | [Isomorphic ](./src/HashMap/Isomorphic.java)                                 | HashMap                                                                                                              | $O((N)$ Time, $O(k)$ Space   | ✅ |
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
 */
