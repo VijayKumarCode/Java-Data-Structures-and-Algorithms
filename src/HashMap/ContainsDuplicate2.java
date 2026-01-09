@@ -1,7 +1,8 @@
 package HashMap;
+
 import java.util.HashSet;
 /*
- * Problem: 219. Contains Duplicate II
+ * Problem No. #219: Contains Duplicate II
  * Difficulty: Easy
  * Link: https://leetcode.com/problems/contains-duplicate-ii/
  * Time Complexity: O(n)
@@ -26,8 +27,8 @@ private static boolean containDuplicate(int[] nums, int k) {
         // If the set size exceeds k, remove the oldest element (at index i - k)
         // This maintains the "sliding window" of size k
             if (set.size() > k) {
-            set.remove(nums[i - k]);
-           }
+                set.remove(nums[i - k]);
+            }
        }
         return false;
    }
