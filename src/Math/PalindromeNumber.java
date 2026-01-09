@@ -1,3 +1,5 @@
+package Math;
+
 /* 🔢 LEETCODE 9: Palindrome Number
  * --------------------------------
  * PROBLEM: Determine whether an integer is a palindrome. An integer is a 
