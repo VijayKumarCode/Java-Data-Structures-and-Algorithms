@@ -1,8 +1,11 @@
 package Array;
+
 import java.util.*;
+
 /*
- * 56. Merge Intervals
+ * Problem No.056
  * Difficulty: Medium
+ * Description : Merge Intervals
  * Link: https://leetcode.com/problems/merge-intervals/
  * Time Complexity: O(n log n) - Sorting takes the most time.
  * Space Complexity: O(log n) - Space used by the sorting algorithm.
