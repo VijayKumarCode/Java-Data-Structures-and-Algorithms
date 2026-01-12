@@ -58,7 +58,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 39 | [Merge Intervals](./src/Array/MergeIntervals.java)                           | Two Pointer /Arrays/Greedy Approach                                                                    | $O(n(logn))$ Time, $O(logn)$ Space                                                             | ✅ |
 | 40 | [Insert Interval](./src/Array/InsertAndAddRanges.java)                       | Two Pointer /Arrays/Greedy Approach                                                                    | $O(n)$ Time, $(n)$ Space                                                                       | ✅ |
 | 41 | [Insert Interval](./src/Array/ShotByArrow.java)                              | Two Pointer /Arrays/Greedy Approach                                                                    | $O(n(logn))$ Time, $(logn)$ Space                                                              | ✅ |
-| 42 | [{Jump One }](./src/Array/JumpToEnd.java)                                    | Arrays/Greedy Approach                                                                                 | $O(n(logn))$ Time, $(logn)$ Space                                                              | ✅ |
+| 42 | [Jump One ](./src/Array/JumpToEnd.java)                                    | Arrays/Greedy Approach                                                                                 | $O(n(logn))$ Time, $(logn)$ Space                                                              | ✅ |
 ## 🚀 How to Use
 Each folder is categorized by data structure. Navigate to a folder and open the `.java` file to see the logic and performance analysis in the comments.
 */
