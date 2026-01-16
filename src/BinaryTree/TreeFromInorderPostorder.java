@@ -12,7 +12,7 @@ import java.util.Map;
  * Space Complexity: O(n)
  */
 
-class TreeFromInorderPostOrder {
+class TreeFromInorderPostorder {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
 
         Map<Integer, Integer> inOrderMap = new HashMap<>();
