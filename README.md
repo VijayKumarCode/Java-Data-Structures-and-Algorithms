@@ -68,6 +68,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 49 | [Populating Next Right Pointers II ](./src/BinaryTree/PopulatingNextRightPointersII.java)          | Binary Tree / Iterative/LinkList                                                                                     | $O(n)$ Time, $O(1)$                                                                            | ✅ |
 | 50 | [Flatten Binary Tree To LinkedList ](./src/BinaryTree/FlattenBinaryTreeToLinkedList.java)          | Binary Tree /Recursion Using preorder /LinkList                                                                      | $O(n)$ Time, $O(n)$                                                                            | ✅ |
 | 51 | [Path Sum Solver ](./src/BinaryTree/PathSumSolver.java)                                            | Binary Tree /Recursion                                                                                               | $O(n)$ Time, $O(n)$                                                                            | ✅ |
+| 52 | [Jump To End II ](./src/Array/JumpToEndII.java)                                                    | Array/Greedy                                                                                                         | $O(n)$ Time, $O(1)$                                                                            | ✅ |
 
 
 ## 🚀 How to Use
