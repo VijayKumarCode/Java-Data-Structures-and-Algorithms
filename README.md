@@ -71,6 +71,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 52 | [Jump To End II ](./src/Array/JumpToEndII.java)                                                    | Array/Greedy                                                                                                         | $O(n)$ Time, $O(1)$   space                                                                    | ✅ |
 | 53 | [Sum To Root Leaf ](./src/BinaryTree/SumRootLeaf.java)                                             | Binary Tree /Recursion /DFS                                                                                          | $O(n)$ Time, $O(n)$   space                                                                    | ✅ |
 | 54 | [SubString Concatenation ](./src/String/SubstringConcatenation.java)                               | String /HashMap /ArrayList                                                                                           | $O(n)$ Time, $O(m *w)$   space                                                                 | ✅ |
+| 55 | [Path Sum Solver II ](./src/BinaryTree/PathSumSolverII.java)                                       | Binary Tree/DFS /Recursion                                                                                           | $O(n)$ Time, $O(n)$   space                                                                    | ✅ |
 
 
 ## 🚀 How to Use
