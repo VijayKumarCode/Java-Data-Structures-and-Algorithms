@@ -76,6 +76,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 57 | [Reverse Bits ](./src/BitManupulation/ReverseBits.java)                                            | Bit Manupulation /Divide and Conquer                                                                                 | $O(1)$ Time, $O(1)$   space                                                                    | ✅ |
 | 58 | [Hamming Weight calculator ](./src/BitManupulation/HammingWeightCalculator.java)                   | Bit Manupulation /Bitwise operator                                                                                   | $O(1)$ Time, $O(1)$   space                                                                    | ✅ |
 | 59 | [Single Number ](./src/BitManupulation/SingleNumber.java)                                          | Bit Manupulation /Bitwise operator /XoR operator                                                                     | $O(n)$ Time, $O(1)$   space                                                                    | ✅ |
+| 60 | [Single Number II ](./src/BitManupulation/SingleNumberII.java)                                     | Bit Manupulation /Bitwise operator /XoR operator                                                                     | $O(n)$ Time, $O(1)$   space                                                                    | ✅ |
 
 
 ## 🚀 How to Use
