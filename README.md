@@ -78,6 +78,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 59 | [Single Number ](./src/BitManupulation/SingleNumber.java)                                          | Bit Manupulation /Bitwise operator /XoR operator                                                                     | $O(n)$ Time, $O(1)$   space                                                                    | ✅ |
 | 60 | [Single Number II ](./src/BitManupulation/SingleNumberII.java)                                     | Bit Manupulation /Bitwise operator /XoR operator                                                                     | $O(n)$ Time, $O(1)$   space                                                                    | ✅ |
 | 61 | [Range Bitwise And](./src/BitManupulation/SingleNumberII.java)                                     | Bit Manupulation /Bitwise operator                                                                                   | $O(\logn)$ Time, $O(1)$   space                                                                | ✅ |
+| 62 | [Count Trailing Zeroes](./src/Math/TrailingZeroes.java)                                            | Math                                                                                                                 | $O(log_5 n)$ Time, $O(1)$   space                                                                | ✅ |
 
 
 ## 🚀 How to Use
