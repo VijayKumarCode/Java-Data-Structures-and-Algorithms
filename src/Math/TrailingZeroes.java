@@ -2,7 +2,7 @@ package Math;
 
 /*
 Problem No. #172
-Difficulty: Easy
+Difficulty: Medium
 Description: Factorial Trailing Zeroes
 Link: https://leetcode.com/problems/factorial-trailing-zeroes/
 Time Complexity: $O(\log_5 n)$
