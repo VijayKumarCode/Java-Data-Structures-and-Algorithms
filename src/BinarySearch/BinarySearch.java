@@ -1,3 +1,5 @@
+package BinarySearch;
+
 /**
  * 🔍 LEETCODE 704: Binary Search
  * ------------------------------
@@ -16,6 +18,7 @@
  * - Time Complexity: O(log n) -> Each step reduces the search range by half.
  * - Space Complexity: O(1) -> Performed in-place without extra structures.
  */
+
 class BinarySearch {
     public int searchInsert(int[] nums, int target) {
         int left = 0;

@@ -1,3 +1,5 @@
+package BinarySearch;
+
 /**
  * 🔍 LEETCODE 74: Search a 2D Matrix
  * ----------------------------------
@@ -14,6 +16,7 @@
  * - Time Complexity: O(log(m * n)) -> Standard binary search efficiency.
  * - Space Complexity: O(1) -> Performed in-place.
  */
+
 class SearchIn2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix == null || matrix.length == 0) return false;
