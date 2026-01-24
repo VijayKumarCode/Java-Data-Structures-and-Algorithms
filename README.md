@@ -80,6 +80,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 61 | [Range Bitwise And](./src/BitManupulation/SingleNumberII.java)                                     | Bit Manupulation /Bitwise operator                                                                                   | $O(\logn)$ Time, $O(1)$   space                                                                | ✅ |
 | 62 | [Count Trailing Zeroes](./src/Math/TrailingZeroes.java)                                            | Math                                                                                                                 | $O(log_5 n)$ Time, $O(1)$   space                                                              | ✅ |
 | 63 | [Max Points in the (X, Y) plane ](./src/Math/MaxPoints.java)                                       | Math                                                                                                                 | $O(n^2)$ Time, $O(n)$   space                                                                  | ✅ |
+| 64 | [Merge K Sorted Lists](./src/DivideAndConquer/MergeKLists.java)                                    | Math/Divide and Conquer /LinkedList                                                                                  | $O(n log k)$ Time, $O( log k)$   space                                                         | ✅ |
 
 
 ## 🚀 How to Use
