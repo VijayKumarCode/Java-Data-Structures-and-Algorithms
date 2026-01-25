@@ -85,6 +85,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 66 | [Peak Finder](./src/BinarySearch/PeakFinder.java)                                                  | Math/Binary Search/ Recursive                                                                                        | $O(log n)$ Time, $O(log n)$   space                                                            | ✅ |
 | 67 | [Search In Rotated Sorted Array](./src/BinarySearch/RotatedSortedArraySearch.java)                 | Math/Binary Search/ Recursive                                                                                        | $O(log n)$ Time, $O(log n)$   space                                                            | ✅ |
 | 68 | [Return First And Last Target In Array](./src/BinarySearch/RangeFinder.java)                       | Math/Binary Search/ Recursive                                                                                        | $O(log n)$ Time, $O(log n)$   space                                                            | ✅ |
+| 69 | [Find Minimum In Rotated Array](./src/BinarySearch/FindMinimumRotatedSortedArray.java)             | Math/Binary Search/ Recursive                                                                                        | $O(log n)$ Time, $O(log n)$   space                                                            | ✅ |
 
 
 ## 🚀 How to Use
