@@ -1,5 +1,7 @@
 package Stack;
 
+import java.util.Stack;
+
 /**
  * Problem No. #150
  * Difficulty: Medium
@@ -9,7 +11,7 @@ package Stack;
  * Space Complexity: O(n)
  */
 
-import java.util.Stack;
+
 
 class ReversePolishNotationExpressionResolver {
     public int evalRPN(String[] tokens) {
