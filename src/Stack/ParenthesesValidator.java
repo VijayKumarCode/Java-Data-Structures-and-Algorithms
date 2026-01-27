@@ -1,5 +1,6 @@
 package Stack;
 
+import java.util.Stack;
 /*
 Problem No. #20
 Difficulty: Easy
@@ -8,7 +9,7 @@ Link: https://leetcode.com/problems/valid-parentheses/
 Time Complexity: O(n)
 Space Complexity: O(n)
 */
-import java.util.Stack;
+
 
 public class ParenthesesValidator {
     public boolean isValid(String s) {
