@@ -1,5 +1,7 @@
 package Heap;
 
+import java.util.PriorityQueue;
+
 /*
 Problem No. #215
 Difficulty: Medium
@@ -8,8 +10,6 @@ Link: https://leetcode.com/problems/kth-largest-element-in-an-array/
 Time Complexity: O(n log k)
 Space Complexity: O(k)
 */
-
-import java.util.PriorityQueue;
 
 class KthLargestElement {
     public int findKthLargest(int[] nums, int k) {
