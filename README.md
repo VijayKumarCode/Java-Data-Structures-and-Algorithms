@@ -95,6 +95,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 76 | [Find Kth Element In Unsorted Array ](./src/Heap/KthLargestElement.java)                           | Heap/PriorityQueue                                                                                                   | $O(n (log k))$ Time, $O(k)$   space                                                            | ✅ |
 | 77 | [Find The Sum of SubArray Using Kadane's Algo  ](./src/KadanesAlgorithm/CircularSubArray.java)     | Kadanes Algorithm/Math                                                                                               | $O(n))$ Time, $O(1)$   space                                                                   | ✅ |
 | 78 | [ Rotate Image By 90 Degree](./src/Array/RotateImage.java)                                         | Array/Matrix                                                                                                         | $O(n^2)$ Time, $O(1)$ Space                                                                    | ✅ |
+| 79 | [ Array To Binary seatch Tree Conversion](./src/DivideAndConquer/ArrayToBSTConverter.java)         | Array/Binary Search Tree/ Recursion                                                                                  | $O(n)$ Time, $O(log(n))$ Space                                                                 | ✅ |
 
 
 ## 🚀 How to Use
