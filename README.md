@@ -98,6 +98,7 @@ To demonstrate **Separation of Concerns**, the Linked List section is implemente
 | 79 | [ Array To Binary seatch Tree Conversion](./src/DivideAndConquer/ArrayToBSTConverter.java)         | Array/Binary Search Tree/ Recursion                                                                                  | $O(n)$ Time, $O(log(n))$ Space                                                                 | ✅ |
 | 80 | [ Jump II](./src/Array/JumpII.java)                                                                | Array                                                                                                                | $O(n)$ Time,$O(1)$ Space                                                                       | ✅ |
 | 81 | [Binary Search Iterator](./src/BinaryTree/BstIterator.java)                                        | Binary Tree, Recursion                                                                                               | $O(1)$ Time,$O(h)$ Space                                                                       | ✅ |
+| 82 | [Reverse Nodes In K Group](./src/LinkedList/ReverseNodesInKGroup.java)                             | LinkedList, Recursion                                                                                                | $O(n)$ Time,$O(n/k)$ Space                                                                     | ✅ |
 
 
 ## 🚀 How to Use
